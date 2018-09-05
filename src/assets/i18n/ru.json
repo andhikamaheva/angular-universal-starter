@@ -4,7 +4,9 @@
     "home": "Главная",
     "mock": "Мокап",
     "back-http": "Http на бэк",
-    "static-back-http": "Статическая `Http на бэк`"
+    "static-back-http": "Статическая `Http на бэк`",
+    "city": "City",
+    "city-with-service": "City (w/ Service)"
   },
   "home": {
     "title": "Главная страница",

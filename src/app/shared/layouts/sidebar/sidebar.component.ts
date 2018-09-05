@@ -5,6 +5,8 @@ const LINKS: any[] = [
   { link: '/mock', name: 'mock', icon: 'info_outline' },
   { link: '/back', name: 'back-http', icon: 'swap_vert' },
   { link: '/static/back', name: 'static-back-http', icon: 'swap_vert' },
+  { link: '/city', name: 'city', icon: 'home' },
+  { link: '/city-with-service', name: 'city-with-service', icon: 'home' },
 ];
 
 @Component({

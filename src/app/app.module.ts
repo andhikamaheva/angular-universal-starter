@@ -12,6 +12,8 @@ import { TranslatesService } from '@shared/translates';
 // components
 import { AppRoutes } from './app.routing';
 import { AppComponent } from './app.component';
+// services
+import { CityService } from './services/city.service';
 
 export function initLanguage(translateService: TranslatesService): Function {
   return (): Promise<any> => translateService.initLanguage();
@@ -28,6 +30,7 @@ export function initLanguage(translateService: TranslatesService): Function {
   ],
   declarations: [AppComponent],
   providers: [
+    CityService,
     CookieService,
     { provide: APP_INITIALIZER, useFactory: initLanguage, multi: true, deps: [TranslatesService] },
   ],

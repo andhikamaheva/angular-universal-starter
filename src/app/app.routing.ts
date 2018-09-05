@@ -11,6 +11,8 @@ const routes: Routes = [
       { path: 'mock', loadChildren: './mock-server-browser/mock-server-browser.module#MockServerBrowserModule' },
       { path: 'back', loadChildren: './transfer-back/transfer-back.module#TransferBackModule' },
       { path: 'static/back', loadChildren: './transfer-back/transfer-back.module#TransferBackModule' },
+      { path: 'city', loadChildren: './qupas/city.module#CityModule' },
+      { path: 'city-with-service', loadChildren: './qupas/city-with-service.module#CityWithServiceModule' },
       { path: '**', loadChildren: './not-found/not-found.module#NotFoundModule' },
     ]
   }

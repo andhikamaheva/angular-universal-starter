@@ -4,7 +4,9 @@
     "home": "Home",
     "mock": "Mock",
     "back-http": "Back http",
-    "static-back-http": "Static `Back http`"
+    "static-back-http": "Static `Back http`",
+    "city": "City",    
+    "city-with-service": "City (w/ Service)"
   },
   "home": {
     "title": "Home page",
